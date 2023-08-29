@@ -23,13 +23,13 @@ As a developer, you will be writing tests for every component. As we've learned,
 
 ### Task 1: Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Clone your OWN version of the repository in your terminal
-- [ ] Download project dependencies by running `npm install`
-- [ ] Start up the app using `npm start`
-- [ ] In a new terminal window, run `npm test`
-- [ ] With each saved change in your editor, the test runner will re-run all the tests
-- [ ] **IMPORTANT** If a test fails, use the test runner's error messages to find out why it is failing
+- [x] Create a forked copy of this project.
+- [x] Clone your OWN version of the repository in your terminal
+- [x] Download project dependencies by running `npm install`
+- [x] Start up the app using `npm start`
+- [x] In a new terminal window, run `npm test`
+- [x] With each saved change in your editor, the test runner will re-run all the tests
+- [x] **IMPORTANT** If a test fails, use the test runner's error messages to find out why it is failing
 
 ### Task 2: Project Requirements
 
@@ -37,14 +37,14 @@ As a developer, you will be writing tests for every component. As we've learned,
 
 #### Test Brainstorming
 
-* [ ] Run and play around with the form interface.
+* [x] Run and play around with the form interface.
 * [ ] Write out a list of possible testcases for this application within Understanding-questions.md.
 
 #### Complete a case that tests if
 
-* [ ] the component renders the contact form component without errors.
-* [ ] the header h1 element exists. Include three asserts, if the header is in the document, if the heads is truthy, if the header has the correct test content.
-* [ ] the component renders ONE error message if the user enters less than 4 characters into the firstname field. Make sure to use async / await and the correct screen method to account for state change.
+* [x] the component renders the contact form component without errors.
+* [x] the header h1 element exists. Include three asserts, if the header is in the document, if the heads is truthy, if the header has the correct test content.
+* [x] the component renders ONE error message if the user enters less than 4 characters into the firstname field. Make sure to use async / await and the correct screen method to account for state change.
 * [ ] the component renders THREE error messages if the user submits without filling in any values.
 * [ ] the component renders ONE error message if the user submits without filling in the email field.
 * [ ] the component renders the text *"email must be a valid email address"* if an invalid email address is typed into the email field.
